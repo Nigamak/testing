@@ -4,7 +4,7 @@ on:
   push: 
     branches: [ main ]
   pull_request:
-    braches: [ main ]
+    branches: [ main ]
 
 
 jobs:
@@ -16,7 +16,7 @@ jobs:
 
       - name: Set up Python
         uses: actions/setup-python@v4
-        with 
+        with:
           python-version: '3.11'
 
       - name: Install Dependencies
